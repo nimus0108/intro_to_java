@@ -1,0 +1,25 @@
+//How to do Nim - (This is just one way to do it)
+	// Assign Variables
+		// integer for pile 1, pile 2, and pile 3 thats stores how many stones (lets use p1, p2, p3)
+		
+	// while loop that runs as long as all of the piles are not 0
+		// print the (pile #: the variables we made in line 3)
+		
+		//print (from which pile?)
+			//get input from user using scanner (make sure to make a scanner before) - assign it to a new var (lets use pile)
+		//print (how many?)
+			//get input from user using scanner - assign it to a new var (we're gonna use variable name num_take)
+		
+		//if loop:
+			//if the pile is 1,
+				//take num_take from p1 (using subtraction)
+			//else if pile is 2,
+				//take num_take from p2 (using subtraction)
+			//else if pile is 1,
+				//take num_take from p3 (using subtraction)
+		
+		//print (taking num_take from pile)
+		
+		//if loop: if p1 is 0 and p2 is 0 and p3 is 0
+			//print (you lose...hahahaha .... you lose :P)		
+			
